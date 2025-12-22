@@ -63,7 +63,7 @@
 
 ## Mermaid flowchart
 
-```mermaid
+```
 flowchart TD
   A[User: create/update Secret in admin] --> B[Informer receives event]
   B --> C[Reconciler: Get secret from admin]
