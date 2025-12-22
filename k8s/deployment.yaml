@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: secret-copy-controller
+  namespace: controllers
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: secret-copy-controller
+  template:
+    metadata:
+      labels:
+        app: secret-copy-controller
+    spec:
+      serviceAccountName: secret-copy-sa
+      containers:
+        - name: manager
+          image: secret-copy-controller:latest
+          imagePullPolicy: IfNotPresent
+          args: []
+          resources: {}
