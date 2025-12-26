@@ -1,6 +1,6 @@
 # Secret Copy Controller 
 
-<img width="1400" height="933" alt="image" src="https://github.com/user-attachments/assets/7376ef8c-393e-4591-9ecd-24c71247eab4" />
+
 
 
 ## Quick overview
