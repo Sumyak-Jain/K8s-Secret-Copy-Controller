@@ -1,7 +1,6 @@
 # Secret Copy Controller 
 
-
-
+![Secret Copy Controller Flow](https://github.com/Sumyak-Jain/K8s-Secret-Copy-Controller/blob/main/k8.png)
 
 ## Quick overview
 
